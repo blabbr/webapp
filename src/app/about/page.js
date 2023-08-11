@@ -1,6 +1,10 @@
+import Navbar from "@/components/NavBar"
+
+
 export default function Page() {
     return (
     <div>
+      <Navbar />
       <p className="text-4xl">What is blabbr.buzz?</p>
       <p>This is a chat site. Like the ones from the 90s. Here's how it works.</p>
       <p>You go into a chat room, set a nick (nickname) and then you chat with whoever is in there</p>
